@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Sécurité Browser (Redirect)",
+  "version": "1.0",
+  "default_locale": "fr",
+  "description": "Sécurité de l'information numérique.",
+  "icons": {
+    "48": "icons/asnsi.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "contextMenus",
+    "https://api.npoint.io/*"
+  ]
+}
