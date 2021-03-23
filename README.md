@@ -47,12 +47,12 @@ https://www.npoint.io/
   {
     "id": 1,
     "read": "porn",
-    "recommended": "https://asnsi.com/"
+    "recommended": "https://asnsi.io/"
   },
   {
     "id": 2,
     "read": "example",
-    "recommended": "https://asnsi.com/"
+    "recommended": "https://asnsi.io/"
   }
 ]
 ```
@@ -64,12 +64,12 @@ https://www.npoint.io/
   {
     "id": 1,
     "rslug": "forex",
-    "URL": "https://asnsi.com/"
+    "URL": "https://asnsi.io/"
   },
   {
     "id": 2,
     "rslug": "good",
-    "URL": "https://asnsi.com/"
+    "URL": "https://asnsi.io/"
   }
 ]
 ```
