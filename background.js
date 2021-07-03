@@ -18,25 +18,25 @@ async function loadPages() {
 }
 
 async function getBlockedRedirect() {
-  let response = await fetch("https://api.npoint.io/5fa8e0df3fbcb6b55740");
+  let response = await fetch("https://api.npoint.io/");
   let data = await response.json();
   return data;
 }
 
 async function getAllowedWebSite() {
-  let response = await fetch("https://api.npoint.io/fb199a54e9b7c6a95050");
+  let response = await fetch("https://api.npoint.io/");
   let data = await response.json();
   return data;
 }
 
 async function getBlockedHostKeyWords() {
-  let response = await fetch("https://api.npoint.io/390e89080b29c06dd46a");
+  let response = await fetch("https://api.npoint.io/");
   let data = await response.json();
   return data;
 }
 
 async function getBlockedSlugKeyWords() {
-  let response = await fetch("https://api.npoint.io/dee0c68555d63116ae30");
+  let response = await fetch("https://api.npoint.io/");
   let data = await response.json();
   return data;
 }
