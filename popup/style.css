@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "si-regular";
+  src: url("../fonts/Celias.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "si-c-medium";
+  src: url("../fonts/Celias-Medium.woff") format("truetype");
+}
+
+html,
+body {
+  font-family: "si-regular", sans-serif;
+  height: auto;
+  margin: 0;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  color: #fff;
+  background: rgb(28,27,34);
+  width: 400px;
+  padding: 0;
+}
+
+.t-15 {
+  margin-top: 15px;
+}
+
+.c_mb-32 {
+  margin-bottom: 32px;
+  display: block;
+}
+
+.c_navigation-title {
+  margin-top: 0;
+  display: grid;
+  background: rgb(35, 34, 43);
+  padding: 16px 0 16px 16px;
+  border-radius: 6px 6px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.c_navigation-borderAf {
+  margin-top: 1px;
+  border-radius: 0 0 6px 6px !important;
+}
+
+.brand {
+  letter-spacing: -1.5px;
+}
+
+.c_align-center {
+  text-align: center;
+}
+
+.c_navigation-css {
+  margin-bottom: 16px;
+  display: grid;
+  background: rgb(35, 34, 43);
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.c_navigation-css a {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: -0.32px;
+  text-decoration: none;
+  font-family: "si-c-medium", sans-serif;
+}
+
+.c_navigation-css span {
+  font-size: 14.5px;
+  color: gray;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  letter-spacing: -0.32px;
+}
+
+.c_navigation-blue {
+  margin-bottom: 16px;
+  display: grid;
+  height: auto;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.c_navigation-blue a {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: -0.32px;
+  text-decoration: none;
+  font-family: "si-c-medium", sans-serif;
+}
+
+.c_navigation-blue span {
+  font-size: 14.5px;
+  color: gray;
+  text-decoration: none;
+}
+
+.c_flex {
+  display: flex;
+  align-items: center;
+}
+
+.c-medium {
+  font-family: "si-c-medium", sans-serif;
+}
+
+.c_start-app {
+  padding: 24px;
+}
+
+.logo-opium {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+  background-size: cover;
+  background-image: url(../images/opium_logo.svg);
+}
+
+.chevron {
+  height: 24px;
+  width: 24px;
+  margin-right: 0;
+  background-size: cover;
+  background-image: url(../images/chevron-right.svg);
+  float: right;
+}
+
+.c_end-c_start-app {
+  width: 100%;
+  font-size: 14px;
+  line-height: 18px;
+  color: gray;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.c_flexdir {
+  display: flex;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.c_flexdir h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+.whois {
+  height: 24px;
+  width: 24px;
+  margin-right: 0;
+  background-size: cover;
+  background-image: url(../images/globe.svg);
+  float: right;
+}
+
+.blue {
+  background-color: #4571f5ad;
+  color: white;
+}
+
+.blue h4 {
+  margin: 0;
+  color: white;
+}
+
+.blue span {
+  margin: 0;
+  color: white;
+}
+
+/* Works on Firefox */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4572f5 rgb(28,27,34);
+}
+
+a {
+  color: #4572f5;
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #4572f5;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(28,27,34);
+  border-radius: 20px;
+  border: 3px solid #4572f5;
+}

@@ -1,14 +1,14 @@
 {
   "extName": {
     "message": "Informations sur le site web (Whois)",
-    "description": ""
+    "description": "Extension name"
   },
   "extDesc": {
     "message": "Informations sur le site web (Whois)",
-    "description": ""
+    "description": "Extension name"
   },
   "title": {
     "message": "Informations sur le site web (Whois)",
-    "description": ""
+    "description": "Menu item text"
   }
 }

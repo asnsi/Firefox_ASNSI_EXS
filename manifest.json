@@ -1,11 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Sécurité Browser (Redirect)",
+  "name": "Protect+ (Internet Protection)",
   "version": "1.0",
+  "description": "L'extension vérifie les sites Internet avant de les ouvrir pour vous.",
   "default_locale": "fr",
-  "description": "Sécurité de l'information numérique.",
   "icons": {
-    "48": "icons/asnsi.png"
+    "48": "icons/unf-48.png",
+    "96": "icons/unf-96.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/unf-32.png",
+    "default_title": "Protect+",
+    "default_popup": "popup/index.html"
   },
   "background": {
     "scripts": [
